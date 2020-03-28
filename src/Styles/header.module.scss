@@ -1,0 +1,47 @@
+.header{
+	display: flex;
+	justify-content: space-evenly;
+	height: 80px;
+	align-items: center;
+	background: #220052;
+	color: #fff;
+}
+
+.logo{
+	font-weight: 700;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.nav{
+	display: flex;
+}
+
+.list{
+	width: 100%;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+.list_item{
+	margin: 0rem 0.5rem;
+	font-weight: 400;
+	cursor: pointer;
+	i{
+		font-size: 1.5rem;
+	}
+}
+
+.list_item:hover{
+	color: #ccc;
+}
+
+.search{
+	width: 100%;
+	padding: 0.5rem;
+	border-radius: 1rem;
+	border: none;
+	outline: none;
+	background-color: #ccc;
+	font-size: 1rem;
+}

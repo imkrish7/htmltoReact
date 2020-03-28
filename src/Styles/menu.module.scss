@@ -1,0 +1,23 @@
+.menu{
+	margin: 1rem 0rem;
+}
+
+.header{
+	text-transform: uppercase;
+	color: #9193ab;
+	font-weight: 700;
+}
+
+.list{
+ list-style: none;	
+ margin: 1.5rem 0rem;
+}
+.list_item{
+	margin: 0.5rem 0rem;
+	color: #454f5b;
+	cursor: pointer;
+}
+.list_item:hover{
+	color: #ff3860;
+	
+}
