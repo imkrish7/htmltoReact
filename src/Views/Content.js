@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Style from '../Styles/content.module.scss';
 import DisscusionTopic from './DisscusionTopic';
+import TOCBody from './TOCBody';
 
 class Content extends Component{
 
@@ -15,6 +16,7 @@ class Content extends Component{
 					<h1 className={Style.header_text}>Mail</h1>
 				</div>
 				<DisscusionTopic />
+				<TOCBody />
 			</div>
 		)
 	}

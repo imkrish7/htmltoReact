@@ -1,14 +1,41 @@
 .container{
-	margin: 1rem 0rem;
-	border: 1px solid #ccc;
-	padding: 2rem;
+	// margin: 1rem 0rem;
+	padding: 2rem 0rem;
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px solid #ccc;
 }
 
 
 .list{
 	list-style: none;
+	border: 1px solid #ccc;
+	padding: 2rem;
+	max-width: 230px;
 }
 .list_item{
 	margin: 0.8rem 0rem;
 	color: #ff3860;
+}
+
+.summary{
+	margin: 1rem 0rem;
+	padding: 0rem 0rem 0rem 1rem;
+}
+
+.text{
+	margin: 1rem 0rem;
+	font-size: 1.3rem;
+	color: #5d5c5c;
+}
+
+.drivers_item{
+	font-size: 1.2rem;
+	margin: 0.5rem 0rem;
+	color: #5d5c5c;
+	span{
+		background-color: #f1efef;
+		font-size: 0.9rem;
+		padding: 0.1rem 0.3rem;
+	}
 }
