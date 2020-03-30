@@ -1,3 +1,5 @@
+$counter: 1;
+
 .container{
 	margin: 2rem 0rem;
 	display: flex;
@@ -10,4 +12,110 @@
 .sub_header_text{
 	font-size: 2rem;
 	font-weight: bolder;
+}
+
+.content{
+	padding: 2rem;
+}
+
+.code_wrapper{
+	border: 1px solid #ccc;
+	overflow-x: scroll;
+}
+.line_numbers{
+	display: flex;
+	flex-direction: column;
+	border-right: 1px solid #ccc;
+}
+.counter{
+	padding: 0.5rem;
+}
+.counter::before{
+	content: counter(count);
+	counter-increment: count;
+}
+
+.code{
+	counter-reset: count;
+	opacity: 0.8;
+}
+
+.highlight{
+	color: #ff3860;
+}
+
+.content_text{
+	font-size: 1rem;
+	margin: 0.5rem 0rem;
+	opacity: .8;
+}
+
+.file_path{
+	background: #ccc;
+	padding: 0.2rem;
+}
+.code_line_wrapper{
+	display: flex;
+	flex-direction: column;
+}
+
+.code_lines{
+	display: flex;
+	
+}
+.code_text{
+	display: flex;
+	flex-direction: column;
+	span{
+		padding: 0.5rem;
+	}
+}
+
+.green{
+	color: rgb(0,128, 0);
+	padding: 0;
+	margin: 0;
+}
+
+.red{
+	color: #ff3860;
+}
+
+.note_card{
+	margin: 1rem 0rem;
+	border: 1px solid #ccc;
+	border-radius: 0.3rem;
+	padding: 2rem;
+	border-top: 5px solid #4800ad;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f9fafb;
+}
+
+.warning_icon{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 2px solid #220052;
+	color: #220052;
+	font-size: 1.3rem;
+	padding: 1rem;
+	font-weight: bolder;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card_content{
+	font-size: 1rem;
+	padding: 0rem 1rem;
+	font-size: 1.2rem;
+	letter-spacing: .01rem;
+	line-height: 1rem;
+	color: #4c4c4c;
+}
+
+.tip_icon{
+	color: #00c79b;
 }
